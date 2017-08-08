@@ -1,0 +1,131 @@
+* {
+    font-family: Lucida Sans, Arial, Helvetica, sans-serif;
+}
+
+body {
+    background-color: #ff6666;
+    color: #FFFFFF;
+    margin: 0px auto;
+    padding: 20px;
+    font-size: 20px;
+}
+
+header h1 {
+    margin-top: 5px;
+    font-size: 30px;
+    text-align: center;
+}
+
+
+h2 {
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+#content {
+    margin-top: 10px;
+    text-align: center;
+}
+
+button {
+	margin-top:20px;
+    height: 35px;
+    width: 150px;
+    font-size: 20px;
+    background-color: #ffffff;
+    outline: 0 none;
+    color: #83AF9B;
+    vertical-align: middle;
+    border-radius: 0px;
+    box-shadow: 0px 0px 0px 0px #ffffff;
+}
+
+input[type=text] {
+    height: 25px;
+    width: 80%;
+    font-size: 20px;
+    background-color: #ffffff;
+    outline: 0 none;
+    color: #000;
+    vertical-align: middle;
+    border-radius: 0px;
+    box-shadow: 0px 0px 0px 0px #ffffff;
+}
+
+img.head {
+	margin-bottom:10px;
+    height: 120px;
+    width: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+img#img-load{
+	margin-top: 20px;
+    height: 100px;
+    width: 100px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+button{
+	color: #000;	
+}
+
+img#img-load {
+	display: none;
+}
+
+#msg-box{
+	display:none;
+}
+
+.message-box-wrapper {
+	margin-top: 20px;
+    position: relative;
+    margin-bottom: 40px;
+    min-height: 99px;
+    width: 90%;
+}
+
+.message-box-wrapper.left {
+    left: 18px;
+}
+
+.message-box-wrapper.right {
+    left: 112px;
+}
+
+.message-box-wrapper:before {
+    position: absolute;
+    width: 18px;
+    height: 36px;
+    top: 44px;
+    content: '';
+    display: block;
+}
+
+.message-box {
+    padding: 20px;
+    border-radius: 10px;
+    font-size: 25px;
+}
+
+.left .message-box {
+    background-color: rgb(35, 35, 35);
+}
+
+.right .message-box {
+    background-color: rgb(45, 45, 45);
+}
+
+.message-header {
+    color: rgb(213, 43, 39);
+}
+
+.message-content {
+    font-weight: lighter;
+    color: #ffffff;
+}
